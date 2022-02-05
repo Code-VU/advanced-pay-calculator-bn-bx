@@ -6,7 +6,7 @@ def calculatePay():
     if float(hrs) <=40 :
         print(float(rate) * float(hrs))
     else:
-        print((float(rate) * 40) + (float(rate) * 1.5 * (float(hrs)-40)))
+        print("Pay: ",(float(rate) * 40) + (float(rate) * 1.5 * (float(hrs)-40)))
     # end assignment
 
 ## if you want to test locally before you try to sync
