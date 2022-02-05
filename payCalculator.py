@@ -3,13 +3,10 @@ def calculatePay():
     # This first line is provided for you
     hrs = input("Enter Hours:")
     rate = input("Enter Rate:")
-    othrs = float(hrs) - 40
-    otrate = float(rate) * 1.5
-    newhrs = float(hrs) - float(othrs)
-    pay = float(newhrs)*float(rate)
-    otpay = float(othrs) * float(otrate)
-    totalpay = (pay) + (otpay)
-    print (totalpay)
+    if float(hrs) <=40 :
+        print(float(rate) * float(hrs))
+    else:
+        print((float(rate) * 40) + (float(rate) * 1.5 * (float(hrs)-40)))
     # end assignment
 
 ## if you want to test locally before you try to sync
