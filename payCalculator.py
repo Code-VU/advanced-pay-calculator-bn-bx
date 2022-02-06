@@ -1,6 +1,6 @@
 def calculatePay():
     
-    # This first line is provided for you, thanks
+    # This first line is provided for you, thanks.
     hrs = input("Enter Hours: ")
     rate = input("Enter Rate: ")
     hrsf = float(hrs)
